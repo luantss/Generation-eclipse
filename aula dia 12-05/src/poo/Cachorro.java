@@ -56,6 +56,12 @@ public class Cachorro extends Animal {
 		System.out.println("===========Cachorro==========="); 
 		System.out.println("\nResidencia: "+residencia+"\nTipo de ração: "+tipoRacao+"\nGasto mensal: "+this.formatoRacao());
 	}
+
+	@Override
+	public void som(String somA) {
+		System.out.println("Auau...auuuuuaauauua");		
+	}
+	
 	
 	
 	

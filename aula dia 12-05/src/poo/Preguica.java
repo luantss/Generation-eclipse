@@ -44,6 +44,12 @@ public class Preguica extends Animal {
 	public void setCorPelo(String corPelo) {
 		this.corPelo = corPelo;
 	}
+
+	@Override
+	public void som(String somA) {
+		System.out.println("*som de preguiça");
+		
+	}
 	
 	
 	

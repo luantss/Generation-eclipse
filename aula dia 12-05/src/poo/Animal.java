@@ -1,9 +1,10 @@
 package poo;
 
-public class Animal {
+public abstract class Animal {
 	
 	//Declaração dos atributos da classe
 	
+	abstract public void som(String somA);
 	private String nomeAnimal;
 	private String racaAnimal;
 	private int idade;
@@ -55,5 +56,5 @@ public class Animal {
 	public void setPeso(int peso) {
 		this.peso = peso;
 	}
-	
+		
 }

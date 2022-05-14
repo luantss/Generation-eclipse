@@ -10,12 +10,15 @@ public class TesteAnimal {
 		
 		dog1.imprimirInfo();
 		dog1.imprimir();
-		
+		dog1.som(null);
+
 		horse1.imprimirInfo(); 
 		horse1.imprimirC();
+		horse1.som(null);
 		
 		bicho1.imprimirInfo();
 		bicho1.imprimirP();
+		bicho1.som(null);
 
 	}
 

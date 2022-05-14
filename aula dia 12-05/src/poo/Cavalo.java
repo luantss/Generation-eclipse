@@ -55,6 +55,11 @@ public class Cavalo extends Animal {
 	public void setAlimento(String alimento) {
 		this.alimento = alimento;
 	}
+
+	@Override
+	public void som(String somA) {
+		System.out.println("*som de cavalo");
+	}
 	
 
 }
